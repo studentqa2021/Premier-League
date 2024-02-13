@@ -7,7 +7,7 @@ import com.webtable.PremierLeagaueTable;
 public class FunctionTest {
 	
 	@Test
-	public void getWebTable() throws Exception {
+	public void getWebTable() {
 		PremierLeagaueTable obj = new PremierLeagaueTable();
 		obj.getDataFromWebTable();
 		
